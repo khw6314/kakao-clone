@@ -1,0 +1,26 @@
+header {
+  color: rgb(255, 0, 0);
+  font-size: 2em;
+  text-decoration: underline;
+}
+section article {
+  font-weight: 200;
+  font-size: 1.1em;
+}
+footer {
+  font-size: 0.8;
+}
+header,
+section article,
+footer {
+  color: red;
+}
+section article,
+footer {
+  font-weight: 200;
+}
+article:hover,
+article:hover a {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+}
